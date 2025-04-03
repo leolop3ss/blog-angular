@@ -1,0 +1,45 @@
+/* Para telas pequenas */
+@media screen and (max-width: 600px) {
+  .containe__menu-title > h1 {
+    font-size: 30px;
+  }
+
+  .containe__menu-title > h2 {
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+
+  .containe__menu-title > p {
+    font-size: 14px;
+  }
+}
+
+/* Para telas médias */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .containe__menu-title > h1 {
+    font-size: 40px;
+  }
+
+  .containe__menu-title > h2 {
+    font-size: 30px;
+  }
+
+  .containe__menu-title > p {
+    font-size: 16px;
+  }
+}
+
+/* Para telas grandes */
+@media screen and (min-width: 1025px) {
+  .containe__menu-title > h1 {
+    font-size: 58px;
+  }
+
+  .containe__menu-title > h2 {
+    font-size: 37px;
+  }
+
+  .containe__menu-title > p {
+    font-size: 17px;
+  }
+}
